@@ -59,9 +59,8 @@ button {
   text-align: center;
   color: white;
 }
-/* Mensagem gigante de sucesso */
 #sucesso {
-  display: none;           /* começa escondido */
+  display: none;
   color: #800000 ;
   font-size: 50px;
   font-weight: bold;
