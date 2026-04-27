@@ -1,0 +1,70 @@
+body {
+  padding: 25px;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+p {
+  color: white;
+  text-align: center;
+
+}
+
+label {
+  color: white;
+  width: 300px;
+  display: block;
+  margin-top: 10px;
+}
+
+.quadro {
+  background-color: #800000;
+  width: 300px;
+  padding: 20px;
+  border: 7px double #333;
+  border-color: white;
+  border-radius: 7px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  border: 2px solid #333;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+  padding: 5px;
+}
+
+button {
+  border: 2px solid #333;
+  border-radius: 7px;
+  color: #800000;
+  background-color: #f4f4f4;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.link{
+  text-align: center;
+  color: white;
+}
+/* Mensagem gigante de sucesso */
+#sucesso {
+  display: none;           /* começa escondido */
+  color: #800000 ;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
