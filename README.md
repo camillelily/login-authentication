@@ -31,24 +31,6 @@ Estrutura do projeto
 │── script.js
 │── server.js
 
-Como funciona
-
-1. Usuário digita login e senha
-2. O JavaScript envia os dados para o servidor
-3. O servidor consulta o banco de dados
-4. Se estiver correto → mostra mensagem de sucesso
-
- Observações importantes:
-
-* As senhas estão sem criptografia.
-* Projeto feito para fins educacionais
-
-Melhorias futuras
-
-* Criptografia de senha (bcrypt)
-* Sistema de cadastro
-* Layout mais moderno
-
 Autora: Camille de Oliveira
 
 
